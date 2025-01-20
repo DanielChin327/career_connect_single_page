@@ -11,26 +11,55 @@
 
 
 
-  <link rel="stylesheet" href="main_page_style.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <title>Career Connect</title>
 </head>
 <body>
+<div class="body-container">
 
   <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
-    <div class="container">
-      <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
-      <p>Change your life and learn to code at one of our campuses around the world.</p>
+    <div class="banner-container">
+
+      <div id="navbar"></div>
+<script>
+    fetch('/partials/navbar.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('navbar').innerHTML = data)
+        .catch(error => console.error('Error loading navbar:', error));
+</script>
+
+      <h1>Career Connect</h1>
+      <p>Career Connect is an app that helps connecting people to jobs. </p>
       <a class="btn btn-flat" href="#">Apply now</a>
     </div>
   </div>
 
+<div class="about-us-container">
+
+  <h2>What is Career Connect</h2>
+
+  <h2>Why Choose Us</h2>
+
+</div>
+
+<div class="perks">
+
+
+</div>
+
+<div class="partners">
+
+  <h2>SFA MJS
+    Saudi Landscape.co</h2>
+
+</div>
+
+<div class="footer">
+<h3>Footer</h3>
 
 
 
-
-
-
-
-
+</div>
+</div>
 </body>
 </html>
