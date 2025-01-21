@@ -1,0 +1,110 @@
+/* Media query for tablets and smaller devices */
+@media (max-width: 768px) {
+  /* Navbar: Center items */
+  .navbar-list {
+    justify-content: center;
+    flex-direction: column; /* Stack items */
+    gap: 10px; /* Add spacing between links */
+  }
+
+  .navbar-item a {
+    font-size: 1.5rem; /* Smaller font for smaller screens */
+  }
+
+  /* Banner Text: Center content */
+  .banner-text {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 5rem;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+  }
+
+  .banner p {
+    font-size: 2rem;
+  }
+
+  /* About Us: Stack image and text */
+  .about-us-container {
+    flex-direction: column; /* Stack items */
+    align-items: center; /* Center content */
+    text-align: center; /* Align text to center */
+  }
+
+  .about-us-portrait {
+    padding-right: 0;
+    margin-bottom: 20px;
+    clip-path: none; /* Remove clipping for small screens */
+    width: 80%;
+  }
+
+  /* What Does Career Connect Provide: Stack cards */
+  .what-is-cards {
+    display: flex;
+    flex-direction: column; /* Stack items */
+    gap: 20px; /* Add spacing between cards */
+  }
+
+  .what-is-card {
+    flex-direction: column; /* Stack image and text */
+    align-items: center;
+    text-align: center;
+  }
+
+  .what-is-card-image {
+    width: 80%; /* Resize image */
+    margin-bottom: 10px;
+  }
+
+  /* Team Section: Stack cards */
+  .team-cards {
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .team-card {
+    text-align: center; /* Center text */
+  }
+
+  .team-card-image {
+    width: 150px; /* Reduce size */
+  }
+
+  /* Partners Section: Stack items */
+  .partners {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .partner-image {
+    width: 150px; /* Resize for small screens */
+  }
+
+  /* Footer: Center text */
+  .footer {
+    text-align: center;
+  }
+}
+
+/* Media query for very small devices like phones */
+@media (max-width: 480px) {
+  .banner h1 {
+    font-size: 3rem;
+  }
+
+  .banner p {
+    font-size: 1.5rem;
+  }
+
+  .navbar-item a {
+    font-size: 1.2rem;
+  }
+
+  .what-is-card-text p {
+    font-size: 1rem;
+  }
+}
