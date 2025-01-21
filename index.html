@@ -24,7 +24,7 @@
 
       <div id="navbar"></div>
 <script>
-    fetch('/partials/navbar.html')
+    fetch('./partials/navbar.html')
         .then(response => response.text())
         .then(data => document.getElementById('navbar').innerHTML = data)
         .catch(error => console.error('Error loading navbar:', error));
@@ -158,7 +158,6 @@
 </div>
 
 </div>
-
 
 </div>
 
