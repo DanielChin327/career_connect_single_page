@@ -6,6 +6,10 @@
   font-optical-sizing: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar{
   position: fixed;
   padding: 0.5em 1em;
@@ -28,9 +32,19 @@
   transition: color 0.3s;
 }
 
+.navbar .navbar-item a:hover {
+  color: gray; /* Default color */
+  transition: color 0.3s;
+}
+
 .navbar.scrolled .navbar-item a {
   color: black; /* Change font color to black when scrolled */
 }
+
+.navbar.scrolled .navbar-item a:hover {
+  color: gray; /* Change font color to black when scrolled */
+}
+
 
 
 .navbar-list{
