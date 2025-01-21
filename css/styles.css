@@ -178,13 +178,13 @@ color:black;
   margin:0 auto;
   padding: 34px;
   padding-top:36px;
-  width: 80%;
+  width: 70%;
 }
 
 .team-title{
   font-size: 3rem;
   margin:0 auto;
-  padding:100px;
+
   align-items:center;
   text-align:center;
   color: #38BDA6;
@@ -207,9 +207,31 @@ color:black;
   border-radius:50%;
 }
 
+.partners-container{
+  margin:0 auto;
+  padding: 34px;
+  padding-top:36px;
+  width: 70%;
+}
 
+.partner-title{
+  font-size: 3rem;
+  margin:0 auto;
+  padding:36px;
+  align-items:center;
+  text-align:center;
+  color: #38BDA6;
+}
 
+.partners{
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
 
+.partner-image{
+width:200px;
+}
 
 
 .footer{
