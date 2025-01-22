@@ -147,7 +147,8 @@ html {
 .what-is-title-text{
   font-size: 3rem;
   margin:0 auto;
-  padding:100px;
+  padding-top:24px;
+  padding-bottom:24px;
   align-items:center;
   text-align:center;
   color: #38BDA6;
@@ -163,7 +164,7 @@ html {
   min-width:1.5rem;
   font-size:1.5rem;
   border-radius: 8px;
-  padding:24px;
+  padding:14px;
   display:flex;
 }
 
@@ -196,7 +197,7 @@ color:black;
   padding-top: 36px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center content horizontally */
+  align-items: center;
 }
 
 .team-title {
@@ -208,10 +209,10 @@ color:black;
 
 .team-cards {
   display: flex;
-  justify-content: center; /* Center the cards horizontally */
-  align-items: center; /* Center the cards vertically (optional for alignment consistency) */
-  gap: 24px; /* Add space between cards */
-  flex-wrap: nowrap; /* Keep the cards in a single row */
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: nowrap;
 }
 
 .team-card {

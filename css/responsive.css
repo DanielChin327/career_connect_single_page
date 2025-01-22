@@ -3,12 +3,11 @@
   /* Navbar: Center items */
   .navbar-list {
     justify-content: center;
-    flex-direction: column; /* Stack items */
     gap: 10px; /* Add spacing between links */
   }
 
   .navbar-item a {
-    font-size: 1.5rem; /* Smaller font for smaller screens */
+    font-size: 2rem; /* Smaller font for smaller screens */
   }
 
   /* Banner Text: Center content */
@@ -44,7 +43,8 @@
   .what-is-cards {
     display: flex;
     flex-direction: column; /* Stack items */
-    gap: 20px; /* Add spacing between cards */
+    font-size:2rem;
+    gap: 10px; /* Add spacing between cards */
   }
 
   .what-is-card {
@@ -54,7 +54,7 @@
   }
 
   .what-is-card-image {
-    width: 80%; /* Resize image */
+    width: 110%; /* Resize image */
     margin-bottom: 10px;
   }
 
