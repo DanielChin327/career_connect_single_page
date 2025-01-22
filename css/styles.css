@@ -135,6 +135,7 @@ html {
 .about-us-text h3{
   font-size: 2rem;
   padding-bottom:1rem;
+  padding-top:1rem;
 }
 
 .about-us-text p{
@@ -194,6 +195,7 @@ text-align:center;
 
 .what-is-card-text p{
 color:black;
+padding-left:1rem;
 }
 
 
