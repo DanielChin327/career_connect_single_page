@@ -108,3 +108,135 @@
     font-size: 1rem;
   }
 }
+
+/* Landscape mode for phones */
+@media (max-height: 500px) and (orientation: landscape) {
+  .navbar-list {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .banner-text {
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 0;
+  }
+
+  .banner h1 {
+    font-size: 3rem; /* Adjust font size for smaller height */
+  }
+
+  .banner p {
+    font-size: 1.2rem;
+  }
+
+  .about-us-portrait {
+    width: 60%; /* Resize the image */
+    margin-bottom: 15px;
+  }
+
+  .what-is-card-image {
+    width: 80%;
+  }
+
+  .team-card-image {
+    width: 120px; /* Smaller images for team cards */
+  }
+
+  .partner-image {
+    width: 120px;
+  }
+}
+
+/* iPads and tablets (both landscape and portrait) */
+@media (max-width: 1024px) {
+  .navbar-list {
+    justify-content: center;
+    gap: 20px; /* Spacing for links */
+  }
+
+  .banner-text {
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .banner h1 {
+    font-size: 5rem; /* Adjust banner font size */
+  }
+
+  .banner p {
+    font-size: 2rem;
+  }
+
+  .about-us-container {
+    flex-direction: column; /* Stack image and text */
+    text-align: center;
+  }
+
+  .about-us-portrait {
+    width: 70%; /* Resize portrait image */
+    margin-bottom: 20px;
+  }
+
+  .what-is-cards {
+    flex-direction: column; /* Stack cards vertically */
+    gap: 15px;
+  }
+
+  .what-is-card-image {
+    width: 100%; /* Adjust image size */
+    margin-bottom: 10px;
+  }
+
+  .team-cards {
+    flex-wrap: wrap; /* Allow team cards to wrap */
+    gap: 20px;
+  }
+
+  .team-card-image {
+    width: 150px; /* Adjust size for team images */
+  }
+
+  .partner-image {
+    width: 150px; /* Resize partner images */
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+
+/* Landscape mode for iPads (Aspect ratio fixes) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .banner {
+    min-height: 50vh; /* Reduce height to fit */
+  }
+
+  .banner h1 {
+    font-size: 4rem; /* Smaller header */
+  }
+
+  .banner p {
+    font-size: 1.5rem;
+  }
+
+  .what-is-card {
+    flex-direction: row; /* Side-by-side cards */
+    align-items: center;
+  }
+
+  .what-is-card-image {
+    width: 50%;
+    margin-right: 15px;
+  }
+
+  .what-is-card-text {
+    text-align: left; /* Align text to the left */
+  }
+}
