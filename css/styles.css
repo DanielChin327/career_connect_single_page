@@ -6,6 +6,8 @@
   font-optical-sizing: auto;
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -24,6 +26,7 @@ html {
 
 .navbar.scrolled {
   background-color: #38BDA6;
+  background-color:  #7767E4;
   color: black;
 }
 
@@ -78,7 +81,8 @@ html {
 
 .banner h1 {
   margin: 0;
-  color: #38BDA6;
+  /* color: #38BDA6; */
+  color: #8a80cc;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 7rem;
   font-weight: bold;
@@ -119,6 +123,7 @@ html {
 .about-us-text h2,
 .about-us-text h3{
   color: #38BDA6;
+  color: #7767E4;
 }
 
 
@@ -152,6 +157,7 @@ html {
   align-items:center;
   text-align:center;
   color: #38BDA6;
+  color: #7767E4;
 }
 
 .what-is-cards{
@@ -181,6 +187,7 @@ text-align:center;
 
 .what-is-card-text h3{
   color:#38BDA6;
+  color: #7767E4;
   padding-top:24px;
   padding-bottom:12px;
 }
@@ -205,6 +212,7 @@ color:black;
   margin: 0 auto;
   text-align: center;
   color: #38BDA6;
+  color: #7767E4;
 }
 
 .team-cards {
@@ -251,6 +259,7 @@ color:black;
   align-items:center;
   text-align:center;
   color: #38BDA6;
+  color: #7767E4;
 }
 
 .partners{
@@ -285,7 +294,12 @@ color:black;
   padding:12px;
 }
 
+.phone{
+  display:flex;
+}
+
 .fa-solid{
   font-size:1rem;
   padding:12px;
+  margin-right:12px;
 }
