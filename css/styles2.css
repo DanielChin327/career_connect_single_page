@@ -7,26 +7,21 @@
 }
 
 
-
 html {
   scroll-behavior: smooth;
 }
 
 .navbar{
-  position: fixed;
   padding: 0.5em 1em;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
   padding: 0.5em 1em;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, color 0.3s;
 }
 
 .navbar.scrolled {
-  background-color: #38BDA6;
-  background-color:  #7767E4;
   color: black;
 }
 
@@ -64,6 +59,13 @@ html {
   padding: 8px;
   font-size:2rem
 }
+
+.head-container{
+  min-height:50vh;
+  background-color: #393f31;
+}
+
+
 
 .banner {
   background-size: cover;
