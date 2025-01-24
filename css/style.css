@@ -8,6 +8,7 @@
 
 body{
   background-color: #393f31;
+  color:white;
 }
 
 .navbar{
@@ -37,7 +38,7 @@ body{
 
 .head-container{
   background-color: #393f31;
-  min-height:30vh;
+  min-height:25vh;
 }
 
 .banner {
@@ -78,6 +79,7 @@ body{
 
 .footer-container{
   background-color:lightgray;
+  color:black;
   min-height:30vh;
   margin-top:24px;
   display:flex;
