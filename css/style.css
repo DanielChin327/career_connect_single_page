@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto Condensed", serif;
+  font-family:  "Bona Nova SC", serif;
+  font-weight: 50;
   font-optical-sizing: auto;
 }
 
@@ -154,30 +155,67 @@ hr{
 
 
 .employer-image{
-  width:30%;
+  margin-top:5rem;
+  margin-bottom:5rem;
+  width:350px;;
 }
 
 
 .employer-info{
   display:flex;
   flex-direction: column;
+  justify-content:space-between;
+  width:70%;
+}
+
+.employer-info h3{
+  font-size:3rem;
+  padding-top:0;
+  padding-bottom:5rem;
+}
+
+.employer-info p{
+  font-size:1rem;
 }
 
 .employer-texts{
   display:flex;
 }
 
+.jobseeker-benefits-container{
+  margin: 0 auto;
+  align-items:center;
+  width:80%;
+  display:flex;
+  justify-content:space-evenly;
+}
 
+.jobseeker-intro{
+  width:80%;
+}
 
+.jobseeker-image{
+  margin-top:5rem;
+  margin-bottom:5rem;
+  width:350px;
+}
 
+.jobseeker-texts{
+  display:flex;
+}
 
+.jobseeker-info{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  width:70%;
+}
 
-
-
-
-
-
-
+.jobseeker-info h3{
+  font-size:3rem;
+  padding-top:0;
+  padding-bottom:5rem;
+}
 
 .collaborator-containers{
   margin:0 auto;
@@ -186,6 +224,7 @@ hr{
   padding-top:36px;
   display:flex;
   justify-content:center;
+  flex-direction:column;
   align-items: center;
 }
 
@@ -198,9 +237,16 @@ hr{
   text-align:center;
 }
 
+.collaborators{
+  display:flex;
+}
+
+.collaborator{
+  padding:34px;
+}
 
 .collaborator-image{
-  width:50%;
+  width:200px;
   transition: transform 0.3s ease;
 }
 
@@ -216,4 +262,9 @@ hr{
   display:flex;
   flex-direction:column;
   align-items:center;
+}
+
+.signup-form{
+  margin: auto 0;
+
 }
