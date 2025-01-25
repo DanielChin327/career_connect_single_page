@@ -7,6 +7,10 @@
   font-optical-sizing: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #393f31;
   color:white;
@@ -257,14 +261,25 @@ hr{
 .footer-container{
   background-color:lightgray;
   color:black;
-  min-height:30vh;
+  min-height:40vh;
   margin-top:24px;
   display:flex;
   flex-direction:column;
   align-items:center;
+  justify-content: space-between;
 }
 
 .signup-form{
   margin: auto 0;
+  padding-top:0px;
+  font-size:2rem;
+}
 
+.signup-form input{
+  font-size:1.5rem;
+}
+
+.signup-button{
+  font-size:2rem;
+  padding:2px;
 }
