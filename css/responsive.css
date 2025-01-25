@@ -1,6 +1,24 @@
 /* Responsive styling for smartphones */
 @media only screen and (max-width: 430px) {
 
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  .body-container {
+    width: 100%;
+  }
+
+
   .navbar-list {
     flex-direction: row;
     justify-content:space-around;
@@ -19,11 +37,11 @@
   }
 
   .head-title h1{
-    font-size:2.5rem;
+    font-size:3rem;
   }
 
   .head-title h2{
-    font-size:1rem;
+    font-size:1.5rem;
   }
 
   .service-container {
@@ -45,6 +63,13 @@
     width: 90%;
     margin-bottom: 20px;
   }
+
+  .service-title h2{
+    margin:0;
+    font-size:2rem;
+    padding:24px;
+  }
+
 
   .employer-benefits-container,
   .jobseeker-benefits-container {
