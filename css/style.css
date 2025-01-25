@@ -1,8 +1,9 @@
+/* Base Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:  "Bona Nova SC", serif;
+  font-family: "Bona Nova SC", serif;
   font-weight: 50;
   font-optical-sizing: auto;
 }
@@ -11,279 +12,393 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background-color: #393f31;
-  color:white;
+  color: white;
 }
 
-hr{
-  width:80%;
+hr {
+  width: 80%;
   margin: 20px auto;
   height: 2px;
-  align-items:center
+  align-items: center;
 }
 
-.navbar-container{
-  height:10vh;
+.navbar-container {
+  height: 10vh;
 }
 
-.navbar{
+.navbar {
   padding: 0.5em 1em;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.5em 1em;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   background-color: #393f31;
 }
 
-.navbar-list{
+.navbar-list {
   display: flex;
   list-style: none;
-  justify-content:center;
-  align-items:center;
-  text-decoration:none;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
-.navbar-item a{
-  text-decoration:none;
-  color:white;
+.navbar-item a {
+  text-decoration: none;
+  color: white;
   padding: 8px;
-  font-size:2rem
+  font-size: 2rem;
 }
 
-.head-container{
+.head-container {
   background-color: #393f31;
-  min-height:25vh;
-  margin:0 auto;
-  padding-top:120px;
-  padding-bottom:120px;
+  min-height: 25vh;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
   width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-.head-title h1{
-  font-size:7rem;
+.head-title h1 {
+  font-size: 7rem;
 }
 
-.head-title h2{
-  font-size:3rem;
+.head-title h2 {
+  font-size: 3rem;
 }
-
 
 .banner {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
-  min-height:100vh;
+  min-height: 100vh;
 }
 
-.service-container{
+.service-container {
   background-color: #393f31;
   margin: 0 auto;
-  padding-bottom:200px;
-  display:flex;
+  padding-bottom: 200px;
+  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 90%
+  width: 90%;
 }
 
-.service-title{
-  align-items:center;
+.service-title {
+  align-items: center;
 }
 
-.service-title h2{
+.service-title h2 {
   margin: 0;
-  padding:8rem;
-  align-items:center;
-  font-size: 3rem
+  padding: 8rem;
+  align-items: center;
+  font-size: 3rem;
 }
 
-.service-title p{
-  font-size: 2rem
+.service-title p {
+  font-size: 2rem;
 }
 
-.service-mission{
+.service-mission {
   padding: 24px;
   padding-top: 80px;
-  padding-bottom:80px;
+  padding-bottom: 80px;
 }
 
-.service-mission h3{
+.service-mission h3 {
   padding: 12px;
-  font-size:2rem;
+  font-size: 2rem;
 }
 
-.service-mission p{
+.service-mission p {
   padding: 12px;
   font-size: 1.5rem;
 }
 
-.service-list{
-  padding-left:24px;
-  padding-right:24px;
-  display:flex;
+.service-list {
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-.service{
-  width:35%;
+.service {
+  width: 35%;
 }
 
-.service h3{
+.service h3 {
   font-size: 2rem;
   padding-bottom: 48px;
 }
 
-.service p{
+.service p {
   font-size: 1.1rem;
 }
 
-.employer-benefits-container{
+.employer-benefits-container {
   margin: 0 auto;
-  align-items:center;
-  width:80%;
-  display:flex;
-  justify-content:space-evenly;
+  align-items: center;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.employer-intro{
+.employer-intro {
   width: 80%;
 }
 
-
-.employer-image{
-  margin-top:5rem;
-  margin-bottom:5rem;
-  width:350px;;
+.employer-image {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 350px;
 }
 
-
-.employer-info{
-  display:flex;
+.employer-info {
+  display: flex;
   flex-direction: column;
-  justify-content:space-between;
-  width:70%;
+  justify-content: space-between;
+  width: 70%;
 }
 
-.employer-info h3{
-  font-size:3rem;
-  padding-top:0;
-  padding-bottom:5rem;
+.employer-info h3 {
+  font-size: 3rem;
+  padding-top: 0;
+  padding-bottom: 5rem;
 }
 
-.employer-info p{
-  font-size:1rem;
+.employer-info p {
+  font-size: 1rem;
 }
 
-.employer-texts{
-  display:flex;
+.employer-texts {
+  display: flex;
 }
 
-.jobseeker-benefits-container{
+.jobseeker-benefits-container {
   margin: 0 auto;
-  align-items:center;
-  width:80%;
-  display:flex;
-  justify-content:space-evenly;
+  align-items: center;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.jobseeker-intro{
-  width:80%;
+.jobseeker-intro {
+  width: 80%;
 }
 
-.jobseeker-image{
-  margin-top:5rem;
-  margin-bottom:5rem;
-  width:350px;
+.jobseeker-image {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 350px;
 }
 
-.jobseeker-texts{
-  display:flex;
+.jobseeker-texts {
+  display: flex;
 }
 
-.jobseeker-info{
-  display:flex;
+.jobseeker-info {
+  display: flex;
   flex-direction: column;
-  justify-content:space-between;
-  width:70%;
+  justify-content: space-between;
+  width: 70%;
 }
 
-.jobseeker-info h3{
-  font-size:3rem;
-  padding-top:0;
-  padding-bottom:5rem;
+.jobseeker-info h3 {
+  font-size: 3rem;
+  padding-top: 0;
+  padding-bottom: 5rem;
 }
 
-.collaborator-containers{
-  margin:0 auto;
-  background-color:white;
+.collaborator-containers {
+  margin: 0 auto;
+  background-color: white;
   padding: 34px;
-  padding-top:36px;
-  display:flex;
-  justify-content:center;
-  flex-direction:column;
+  padding-top: 36px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
-.collaborator-title{
+.collaborator-title {
   font-size: 3rem;
-  margin:0 auto;
-  color:black;
-  padding:36px;
-  align-items:center;
-  text-align:center;
+  margin: 0 auto;
+  color: black;
+  padding: 36px;
+  align-items: center;
+  text-align: center;
 }
 
-.collaborators{
-  display:flex;
+.collaborators {
+  display: flex;
 }
 
-.collaborator{
-  padding:34px;
+.collaborator {
+  padding: 34px;
 }
 
-.collaborator-image{
-  width:200px;
+.collaborator-image {
+  width: 200px;
   transition: transform 0.3s ease;
 }
 
-.collaborator-image:hover{
+.collaborator-image:hover {
   transform: scale(1.05);
 }
 
-.footer-container{
-  background-color:lightgray;
-  color:black;
-  min-height:40vh;
-  margin-top:24px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
+.footer-container {
+  background-color: lightgray;
+  color: black;
+  min-height: 40vh;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 }
 
-.signup-form{
+.signup-form {
   margin: auto 0;
-  padding-top:0px;
-  font-size:2rem;
-  display:flex;
+  padding-top: 0px;
+  font-size: 2rem;
+  display: flex;
   flex-direction: row;
 }
 
-.signup-form input{
-  font-size:1.5rem;
-  margin:5px;
+.signup-form input {
+  font-size: 1.5rem;
+  margin: 5px;
 }
 
-.signup-button{
-  font-size:2rem;
-  padding:2px;
-  margin:5px;
+.signup-button {
+  font-size: 2rem;
+  padding: 2px;
+  margin: 5px;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 430px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .navbar-list {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .navbar-item a {
+    font-size: 1.5rem;
+  }
+
+  .head-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 90%;
+  }
+
+  .head-title h1 {
+    font-size: 3rem;
+  }
+
+  .head-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .service-container {
+    width: 90%;
+    padding-bottom: 80px;
+  }
+
+  .service-title p {
+    font-size: 1.5rem;
+  }
+
+  .service-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .service-title h2 {
+    margin: 0;
+    font-size: 2rem;
+    padding: 24px;
+  }
+
+  .employer-benefits-container,
+  .jobseeker-benefits-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .employer-info,
+  .jobseeker-info {
+    width: 90%;
+  }
+
+  .employer-image,
+  .jobseeker-image {
+    width: 250px;
+  }
+
+  .collaborator-containers {
+    padding: 24px;
+  }
+
+  .collaborators {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .collaborator {
+    margin-bottom: 16px;
+  }
+
+  .collaborator-image {
+    width: 150px;
+  }
+
+  .footer-container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .signup-form input,
+  .signup-button {
+    width: 90%;
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+
+  .signup-button {
+    padding: 10px;
+  }
+
+  .contact-title,
+  .fa-solid {
+    font-size: 1rem;
+  }
 }

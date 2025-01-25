@@ -103,8 +103,11 @@
   }
 
   .collaborator-image {
-    width: 150px; /* Smaller collaborator images */
+    width: 150px;
   }
+
+
+
 
   .footer-container {
     text-align: center;
