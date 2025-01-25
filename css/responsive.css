@@ -1,20 +1,40 @@
 /* Responsive styling for smartphones */
 @media only screen and (max-width: 430px) {
+
   .navbar-list {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    justify-content:space-around;
   }
+
+  .navbar-item a{
+    font-size:1.5rem;
+  }
+
+
 
   .head-container {
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 90%; /* Reduce width for smaller screens */
+    width: 90%;
+  }
+
+  .head-title h1{
+    font-size:2.5rem;
+  }
+
+  .head-title h2{
+    font-size:1rem;
   }
 
   .service-container {
-    width: 100%;
+    width: 90%;
     padding-bottom: 80px;
   }
+
+.service-title p{
+  font-size:1.5rem;
+}
+
 
   .service-list {
     flex-direction: column;
