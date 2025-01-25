@@ -321,6 +321,11 @@ hr {
     font-size: 1.5rem;
   }
 
+  .banner{
+    background-position: 20% center;
+  }
+
+
   .service-container {
     width: 90%;
     padding-bottom: 80px;
