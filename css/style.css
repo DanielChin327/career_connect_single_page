@@ -273,13 +273,17 @@ hr{
   margin: auto 0;
   padding-top:0px;
   font-size:2rem;
+  display:flex;
+  flex-direction: row;
 }
 
 .signup-form input{
   font-size:1.5rem;
+  margin:5px;
 }
 
 .signup-button{
   font-size:2rem;
   padding:2px;
+  margin:5px;
 }
